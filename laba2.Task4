@@ -1,0 +1,14 @@
+str=[]
+N=int(input())
+i=0
+while i<N:
+    a=int(input())
+    str.append(a)
+    i+=1
+str.pop(0)
+str.pop(0)
+new1=input('Введите новый элемент:' )
+str.append(new1)
+new2=input('Введите новый элемент:' )
+str.append(new2)
+print(str)
