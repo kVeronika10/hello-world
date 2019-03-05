@@ -1,0 +1,5 @@
+str=input()
+new=str.split(' ')
+for i in new:
+    if (len(i)>5):
+        print(i.strip())
