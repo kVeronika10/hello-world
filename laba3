@@ -24,8 +24,8 @@ def Work():
 
 def Find():
 	path = input('Укажите директорию: ')
-	count = len([f for f in os.listdir(path) if os.path.isfile(os.path.join(path, f))])
-	print("Кол-во файлов в директории: " + str(count))
+	count = str(len(os.listdir(path)))
+	print("Кол-во файлов в директории: " + (count))
 
 def Sort():
 	global sort
